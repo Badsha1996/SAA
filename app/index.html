@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SAA</title>
     <!-- Styling sheet -->
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
-    <label for="tweet-convert__input" class="tweet-convert__label">Tweet</label>
-    <textarea class="tweet-convert__input-box" name="tweet-convert__input">This is a demo tweet</textarea>
-    <!-- <input class="tweet-convert__input-box" type="text" placeholder="Enter your tweet"> -->
-    <button class="tweet-convert__button">Convert</button>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <span>SAA</span>
+      </div>
+      <div class="content">
+        <label for="tweet-convert__input" class="tweet-convert__label"
+          >Tweet</label
+        >
+        <textarea
+          class="tweet-convert__input-box"
+          name="tweet-convert__input"
+          placeholder="write your message"
+        ></textarea>
+
+        <button class="tweet-convert__button">Convert</button>
+      </div>
+    </div>
 
     <!-- Main JS files -->
     <script src="./main/main.js"></script>
-</body>
+  </body>
 </html>
